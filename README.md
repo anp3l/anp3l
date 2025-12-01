@@ -43,15 +43,6 @@ Backend: [Remote Video Backend](https://github.com/anp3l/remote-video-server)
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anp3l&show_icons=true&theme=radical&count_private=true&hide=issues" height="180" alt="github stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anp3l&layout=compact&theme=radical&hide=css,html" height="180" alt="top languages" />
-</div>
-
----
-
 ### 📫 How to reach me
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrea-peluso-052868386)
