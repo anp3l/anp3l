@@ -1,16 +1,57 @@
-## Hi there 👋
+# Hi, I'm Andrea 👋
 
-<!--
-**anp3l/anp3l** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Junior Full-Stack Developer
 
-Here are some ideas to get you started:
+I am a recent Computer Science graduate, currently building my portfolio and sharpening my skills as a Junior Full-Stack Developer. My thesis focused on developing a video content management module for a web platform, and from that work I started an independent project to practice full-stack architecture in a real-world scenario.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🎓 Computer Science graduate (L-31), University of Turin.
+- 🔭 Currently working on **Remote Video Library**, a personal project inspired by my thesis work.
+- 💻 Interested in modern web development, clean architecture, and developer experience.
+- 🚀 Open to junior full-stack opportunities and collaborations.
+
+---
+
+### 🛠️ Tech Stack
+
+**Frontend**  
+![Angular](https://img.shields.io/badge/Angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+
+**Backend & Database**  
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
+**DevOps & Tools**  
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+### 📽️ Highlight Project: Remote Video Library
+
+A modern Angular 20 application for managing and streaming a personal video library. Built with Angular, Material Design, and Tailwind CSS, featuring authentication, video upload with metadata management, and HLS-based streaming playback.
+
+- Tech: Angular frontend, Node.js/Express backend, MongoDB, Docker.
+- Features (in progress): user authentication, per-user video libraries, HLS streaming, thumbnails, and async processing.
+- Goal: explore real-world full-stack patterns and showcase a complete client–server architecture.
+
+Frontend: [Remote Video Client](https://github.com/anp3l/remote-video-client)  
+Backend: [Remote Video Backend](https://github.com/anp3l/remote-video-server)
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=anp3l&show_icons=true&theme=radical&count_private=true&hide=issues" height="180" alt="github stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anp3l&layout=compact&theme=radical&hide=css,html" height="180" alt="top languages" />
+</div>
+
+---
+
+### 📫 How to reach me
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrea-peluso-052868386)
