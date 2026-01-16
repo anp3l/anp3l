@@ -5,7 +5,7 @@
 I am a recent Computer Science graduate, currently building my portfolio and sharpening my skills as a Junior Full-Stack Developer. My thesis focused on developing a video content management module for a web platform, and from that work I started an independent project to practice full-stack architecture in a real-world scenario.
 
 - 🎓 Computer Science graduate (L-31), University of Turin.
-- 🔭 Currently working on **Remote Video Library**, a personal project inspired by my thesis work.
+- 🔭 Currently working on **Remote Video Platform**, a microservices-based video streaming system with Docker orchestration.
 - 💻 Interested in modern web development, clean architecture, and developer experience.
 - 🚀 Open to junior full-stack opportunities and collaborations.
 
@@ -30,22 +30,29 @@ I am a recent Computer Science graduate, currently building my portfolio and sha
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
+**Architecture**  
+![Microservices](https://img.shields.io/badge/Architecture-Microservices-success?style=for-the-badge)
+
 ---
 
-### 📽️ Highlight Project: Remote Video Library
+### 📽️ Highlight Project: Remote Video Platform
 
-A modern video management platform built with a microservices architecture. The Angular 20 frontend communicates with two independent Node.js/Express backends: an authentication service handling user identity and a video service managing content and HLS streaming.
+A complete video streaming system with microservices architecture and Docker 
+orchestration. Features dedicated Auth Server (JWT identity provider), Video 
+Server (FFmpeg/HLS), and Angular frontend with Material Design.
+
+**🚀 Self-contained:** Deploy the entire stack locally with Docker Compose.
 
 **Architecture:**
 - Microservices design with dedicated Auth and Video services
-- Docker containerization with health checks for auto-healing
+- Docker containerization with health checks and restart policies
 - MongoDB for both user data and video metadata
 
 **Key Features:**
-- Secure user authentication and authorization
+- Secure JWT authentication across microservices
 - Per-user video libraries with metadata management
-- HLS adaptive streaming with Video.js player
-- Automated thumbnail generation and video processing
+- HLS adaptive streaming (1080p/720p/480p/360p)
+- Automated FFmpeg transcoding and thumbnail generation
 - Material Design + Tailwind CSS UI
 
 **Security:**
@@ -56,10 +63,13 @@ A modern video management platform built with a microservices architecture. The 
 **🎯 Project Goal**
 To explore real-world full-stack patterns including microservices architecture, distributed authentication, secure video streaming, and containerized deployment.
 
-**Repositories:**
-- Frontend: [Remote Video Client](https://github.com/anp3l/remote-video-client)
-- Video Service: [Remote Video Server](https://github.com/anp3l/remote-video-server)
-- Auth Service: [Remote Auth Server](https://github.com/anp3l/auth-server)
+**🔗 Main Repository:**  
+**[Remote Video Platform](https://github.com/anp3l/remote-video-platform)** – Complete system with Docker orchestration, architecture documentation, and deployment guide.
+
+**📦 Individual Services:**
+- [Auth Server](https://github.com/anp3l/auth-server) – RS256 JWT identity provider
+- [Video Server](https://github.com/anp3l/remote-video-server) – FFmpeg transcoding & HLS streaming
+- [Frontend Client](https://github.com/anp3l/remote-video-client) – Angular 20 UI with Video.js player
 
 ---
 
