@@ -1,13 +1,13 @@
 # Hi, I'm Andrea 👋
 
-### Junior Full-Stack Developer
+### Junior Software Developer
 
-I am a recent Computer Science graduate, currently building my portfolio and sharpening my skills as a Junior Full-Stack Developer. My thesis focused on developing a video content management module for a web platform, and from that work I started an independent project to practice full-stack architecture in a real-world scenario.
+I am a recent Computer Science graduate, currently building my portfolio and sharpening my skills as a Junior Software Developer. My thesis focused on developing a video content management module for a web platform, and from that work I started an independent project to practice full-stack architecture in a real-world scenario.
 
 - 🎓 Computer Science graduate (L-31), University of Turin.
 - 🔭 Currently working on **Remote Video Platform**, a microservices-based video streaming system with Docker orchestration.
-- 💻 Interested in modern web development, clean architecture, and developer experience.
-- 🚀 Open to junior full-stack opportunities and collaborations.
+- 💻 Interested in modern web development (**Angular, Node.js**) and clean architecture.
+- 🚀 Open to junior opportunities and collaborations.
 
 ---
 
@@ -75,4 +75,4 @@ To explore real-world full-stack patterns including microservices architecture, 
 
 ### 📫 How to reach me
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrea-peluso-052868386)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adr-peluso)
