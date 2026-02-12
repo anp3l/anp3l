@@ -35,36 +35,45 @@ I am a recent Computer Science graduate, currently building my portfolio and sha
 
 ---
 
-### 📽️ Highlight Project: Remote Video Platform
+## 📽️ Highlight Project: Remote Video Platform
 
-A complete video streaming system with microservices architecture and Docker 
-orchestration. Features dedicated Auth Server (JWT identity provider), Video 
-Server (FFmpeg/HLS), and Angular frontend with Material Design.
+A complete **video streaming platform** with microservices architecture, secure authentication, and Docker orchestration. Features dedicated Auth Server (JWT + refresh tokens), Video Server (FFmpeg/HLS transcoding), and Angular frontend with Material Design.
 
-**🚀 Self-contained:** Deploy the entire stack locally with Docker Compose.
+**🚀 Self-contained:** Deploy the entire stack locally with `docker-compose up --build`.
 
 **Architecture:**
 - Microservices design with dedicated Auth and Video services
 - Docker containerization with health checks and restart policies
-- MongoDB for both user data and video metadata
+- MongoDB for user data, video metadata, and audit logs
+- Stateless authentication with refresh token rotation
 
 **Key Features:**
-- Secure JWT authentication across microservices
-- Per-user video libraries with metadata management
-- HLS adaptive streaming (1080p/720p/480p/360p)
-- Automated FFmpeg transcoding and thumbnail generation
-- Material Design + Tailwind CSS UI
+- **Secure Authentication**: RS256 JWT with automatic refresh (15min/7d)
+- **Admin Management**: User roles, audit logging, session management
+- **Video Processing**: HLS adaptive streaming (1080p/720p/480p/360p)
+- **Smart Frontend**: Preemptive token refresh, automatic retry on 401
+- **Email System**: Template-based password reset (mock for dev, production-ready)
+- **Per-User Libraries**: Isolated video storage with metadata management
 
 **Security:**
-- RSA-signed JWT tokens for user authentication across services
+- RSA-signed JWT tokens (access + refresh) for authentication
+- Refresh token rotation prevents replay attacks
 - HMAC-signed temporary URLs for video stream access control
-- Public/private key infrastructure for service-to-service trust
+- Public/private key infrastructure for zero-trust service communication
+- Comprehensive audit logging (IP, user agent, all sensitive actions)
 
-**🎯 Project Goal**
-To explore real-world full-stack patterns including microservices architecture, distributed authentication, secure video streaming, and containerized deployment.
+**Tech Stack:**
+- **Frontend**: Angular 20, Material Design, Tailwind CSS, Video.js
+- **Backend**: Node.js, Express, TypeScript, FFmpeg
+- **Auth**: JWT (RS256), Refresh Tokens, Bcrypt, jwt-decode
+- **Database**: MongoDB
+- **DevOps**: Docker, Docker Compose, Nginx
+
+**🎯 Project Goal**  
+To explore real-world full-stack patterns including microservices architecture, distributed authentication with refresh tokens, secure video streaming, admin management, and containerized deployment.
 
 **🔗 Main Repository:**  
-**[Remote Video Platform](https://github.com/anp3l/remote-video-platform)** – Complete system with Docker orchestration, architecture documentation, and deployment guide.
+[Remote Video Platform](https://github.com/anp3l/remote-video-platform) – Complete system with Docker orchestration, architecture documentation, and deployment guide
 
 **📦 Individual Services:**
 - [Auth Server](https://github.com/anp3l/auth-server) – RS256 JWT identity provider
