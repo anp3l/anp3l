@@ -44,33 +44,39 @@ A complete **video streaming platform** with microservices architecture, secure 
 **Architecture:**
 - Microservices design with dedicated Auth and Video services
 - Docker containerization with health checks and restart policies
-- MongoDB for user data, video metadata, and audit logs
+- MongoDB for user data, video metadata, and refresh tokens
 - Stateless authentication with refresh token rotation
 
-**Key Features:**
+**Implemented Features:**
 - **Secure Authentication**: RS256 JWT with automatic refresh (15min/7d)
-- **Admin Management**: User roles, audit logging, session management
 - **Video Processing**: HLS adaptive streaming (1080p/720p/480p/360p)
 - **Smart Frontend**: Preemptive token refresh, automatic retry on 401
-- **Email System**: Template-based password reset (mock for dev, production-ready)
 - **Per-User Libraries**: Isolated video storage with metadata management
+- **Background Transcoding**: Asynchronous FFmpeg processing with status polling
+- **Responsive UI**: Grid/list view, search, filter, sort with Material Design
+
+**Backend Capabilities (not yet in frontend UI):**
+- Admin panel with user management
+- Session management (list and revoke active sessions)
+- Password reset flow with email templates
+- User role system with audit logging
 
 **Security:**
 - RSA-signed JWT tokens (access + refresh) for authentication
 - Refresh token rotation prevents replay attacks
 - HMAC-signed temporary URLs for video stream access control
 - Public/private key infrastructure for zero-trust service communication
-- Comprehensive audit logging (IP, user agent, all sensitive actions)
+- Per-user data isolation enforced by JWT claims
 
 **Tech Stack:**
 - **Frontend**: Angular 20, Material Design, Tailwind CSS, Video.js
 - **Backend**: Node.js, Express, TypeScript, FFmpeg
-- **Auth**: JWT (RS256), Refresh Tokens, Bcrypt, jwt-decode
+- **Auth**: JWT (RS256), Refresh Tokens, Bcrypt
 - **Database**: MongoDB
 - **DevOps**: Docker, Docker Compose, Nginx
 
 **🎯 Project Goal**  
-To explore real-world full-stack patterns including microservices architecture, distributed authentication with refresh tokens, secure video streaming, admin management, and containerized deployment.
+To explore real-world full-stack patterns including microservices architecture, distributed authentication with refresh tokens, secure video streaming, and containerized deployment. The backend is feature-complete with admin capabilities, while the frontend focuses on core video library functionality.
 
 **🔗 Main Repository:**  
 [Remote Video Platform](https://github.com/anp3l/remote-video-platform) – Complete system with Docker orchestration, architecture documentation, and deployment guide
